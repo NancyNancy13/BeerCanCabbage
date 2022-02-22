@@ -57,6 +57,9 @@ h1 {
   max-width: 50%;
   height: 100%;
 }
+#beercan:hover {
+  max-width: 60%;
+}
 .main {
   display: flex;
   justify-content: center;
@@ -174,5 +177,30 @@ h1 {
   position: absolute;
   bottom: -141.5rem;
   padding: 10px;
+  opacity: 0.5;
+}
+footer {
+  background: rgb(185, 183, 183);
+}
+#footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+footer #p {
+  text-align: center;
+}
+#login:hover {
+  opacity: 0.5;
+}
+#signup:hover {
+  opacity: 0.5;
+}
+#direction:hover {
+  opacity: 0.5;
+}
+#save:hover {
+  opacity: 0.5;
+}
+.image:hover {
   opacity: 0.5;
 }
